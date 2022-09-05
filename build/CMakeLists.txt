@@ -40,6 +40,38 @@ endif()
 set(LUA_SRC_PATH lua-${LUA_VERSION}/src)
 set(LUAJIT_SRC_PATH luajit-2.1.0b3/src)
 
+#begin lua-rapidjson
+ set (RAPIDJSON_SRC ${RAPIDJSON_SRC} lua-rapidjson/src/Document.cpp)
+ set (RAPIDJSON_SRC ${RAPIDJSON_SRC} lua-rapidjson/src/file.hpp)
+ set (RAPIDJSON_SRC ${RAPIDJSON_SRC} lua-rapidjson/src/luax.hpp)
+ set (RAPIDJSON_SRC ${RAPIDJSON_SRC} lua-rapidjson/src/rapidjson.cpp)
+ set (RAPIDJSON_SRC ${RAPIDJSON_SRC} lua-rapidjson/src/Schema.cpp)
+ set (RAPIDJSON_SRC ${RAPIDJSON_SRC} lua-rapidjson/src/StringStream.hpp)
+ set (RAPIDJSON_SRC ${RAPIDJSON_SRC} lua-rapidjson/src/Userdata.hpp)
+ set (RAPIDJSON_SRC ${RAPIDJSON_SRC} lua-rapidjson/src/values.cpp)
+ set (RAPIDJSON_SRC ${RAPIDJSON_SRC} lua-rapidjson/src/values.hpp)
+ set_property(
+     SOURCE ${RAPIDJSON_SRC}
+     APPEND
+     PROPERTY COMPILE_DEFINITIONS
+     LUA_LIB
+ )
+ list(APPEND THIRDPART_INC  lua-rapidjson/include)
+ set (THIRDPART_SRC ${THIRDPART_SRC} ${RAPIDJSON_SRC})
+ #end lua-rapidjson
+
+#begin lua-protobuf
+ set (protobuf_SRC ${RAPIDJSON_SRC} lua-protobuf/pb.c)
+ set_property(
+     SOURCE ${protobuf_SRC}
+     APPEND
+     PROPERTY COMPILE_DEFINITIONS
+     LUA_LIB
+ )
+ list(APPEND THIRDPART_INC  lua-protobuf)
+ set (THIRDPART_SRC ${THIRDPART_SRC} ${protobuf_SRC})
+ #end lua-protobuf
+
 if (USING_LUAJIT)
 	
     if (APPLE AND NOT IOS AND NOT ANDROID)
