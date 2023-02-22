@@ -1,0 +1,3 @@
+/home/martin/xLua/build/build54.Android.x86/CMakeFiles/xlua.dir
+/home/martin/xLua/build/build54.Android.x86/CMakeFiles/edit_cache.dir
+/home/martin/xLua/build/build54.Android.x86/CMakeFiles/rebuild_cache.dir

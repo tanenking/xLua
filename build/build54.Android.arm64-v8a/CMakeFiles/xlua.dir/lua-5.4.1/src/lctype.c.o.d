@@ -1,0 +1,23 @@
+CMakeFiles/xlua.dir/lua-5.4.1/src/lctype.c.o: \
+  /home/martin/xLua/build/lua-5.4.1/src/lctype.c \
+  /home/martin/xLua/build/lua-5.4.1/src/lprefix.h \
+  /home/martin/xLua/build/lua-5.4.1/src/lctype.h \
+  /home/martin/xLua/build/lua-5.4.1/src/lua.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.7/include/stdarg.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.7/include/stddef.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.7/include/__stddef_max_align_t.h \
+  /home/martin/xLua/build/build54.Android.arm64-v8a/luaconf.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.7/include/limits.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/limits.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/api-level.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/ndk-version.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.7/include/float.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/limits.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/posix_limits.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.7/include/stdint.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h \
+  /home/martin/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h \
+  /home/martin/xLua/build/lua-5.4.1/src/llimits.h
